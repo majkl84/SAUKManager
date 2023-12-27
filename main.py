@@ -1,7 +1,6 @@
-from vishhhl.addons.Menu import *
-import colorama
+import flet as ft
 
-menu = Menu("SAUKManager")
+def main(page: ft.Page):
+    pass
 
-clrm = colorama.Fore
-menMain.enable()
+ft.app(target=main, view=ft.WEB_BROWSER)
